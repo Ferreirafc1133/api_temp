@@ -1,8 +1,7 @@
-require('dotenv').config(); // Lee y guarda cada linea como varibale de entorno
+// require('dotenv').config(); // Lee y guarda cada linea como varibale de entorno
 const express = require('express'); // Importa el modulo express en la api
 
 const app = express(); // Crea una instancia para manejar rutas y  funciones en el servidor
-app.use(routes);// Usa las rutas de routes.js
 
 
 let port = process.env.PORT || 3000; // Toma el puerto asignado en la variable de entorno y si no hay da  el 3000
